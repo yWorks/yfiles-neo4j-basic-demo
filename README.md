@@ -1,7 +1,7 @@
 # yfiles-neo4j-basic-demo
 Shows how to use yFiles for HTML and Neo4j in a web based single page app to visualize database contents.
 
-This repository serves as a reference for a demo that can be used as a guideline for creating single page web application that render a visualization of [Neo4j](https://www.neo4j.com) database contents using the [yFiles for HTML JavaScript graph drawing library](https://www.yworks.com/yfileshtml). __You cannot run or test the demo without a yFiles for HTML library or without a Neo4j database just by cloning this repository. This repository is meant as a reference for the sources in [this posting](https://medium.com/neo4j/neo4j-graph-visualization-like-a-pro-18651963ebd4), only.__
+This repository serves as a reference for a demo that can be used as a guideline for creating single page web application that render a visualization of [Neo4j](https://www.neo4j.com) database contents using the [yFiles for HTML JavaScript graph drawing library](https://www.yworks.com/yfileshtml). __You cannot run or test the demo without a yFiles for HTML library or without a Neo4j database just by cloning this repository. This repository is meant as a reference for the sources in [this posting](https://medium.com/neo4j/neo4j-graph-visualization-like-a-pro-18651963ebd4) and [the corresponding YouTube screencast](https://youtu.be/ABixtyDjcKc), only.__
 
 The demo was scaffolded using the [yeoman generator for yFiles apps](https://www.npmjs.com/package/generator-yfiles-app) using the following settings: 
 
