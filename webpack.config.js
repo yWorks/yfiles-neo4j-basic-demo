@@ -6,7 +6,7 @@ const YFilesOptimizerPlugin = require('@yworks/optimizer/webpack-plugin');
 const config = {
 
   entry: {
-    app: [path.resolve('app/scripts/app.js')]
+    app: ['@babel/polyfill', path.resolve('app/scripts/app.js')]
   },
 
   output: {

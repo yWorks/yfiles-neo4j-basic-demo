@@ -18,7 +18,6 @@ import {
   Reachability
 } from 'yfiles'
 
-import '@babel/polyfill'
 
 // We need to make sure to load the yfiles/view-layout-bridge module to prevent the webpack
 // tree shaker from removing this dependency which is needed for the 'morphLayout' call in this demo.
