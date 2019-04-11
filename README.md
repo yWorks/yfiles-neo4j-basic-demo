@@ -8,7 +8,7 @@ The demo was scaffolded using the [yeoman generator for yFiles apps](https://www
 ```
 ? Application name Neo_yFiles
 ? Path of yFiles for HTML package C:\Path\to\your\yFilesForHTMLPackage
-? Path of license file (e.g. 'path/to/license.js') C:\Path\to\your\yFilesForHTMLPackage\demos\resources\license.js
+? Path to license file (e.g. 'path/to/license.json') C:\Path\to\your\yFilesForHTMLPackage\lib\license.json
 ? Which kind of yFiles modules do you want to use? ES6 Modules
 ? Which language variant do you want to use? ES6
 ? What else do you want? Use yfiles-typeinfo.js Visual Studio Code
