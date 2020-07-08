@@ -9,7 +9,6 @@ import {
   RadialLayout,
   RadialLayoutData,
   Size,
-  Rect,
   GraphBuilder,
   ShapeNodeStyle,
   EdgePathLabelModel,
@@ -18,7 +17,6 @@ import {
   DefaultLabelStyle,
   GraphItemTypes,
   Reachability,
-  IEnumerable,
 } from 'yfiles'
 
 // Tell the library about the license contents
@@ -29,10 +27,7 @@ License.value = {
 import neo4j, { Node as NeoNode } from 'neo4j-driver'
 
 // setup the driver
-const neo4jDriver = neo4j.driver(
-    'bolt://1.2.3.4/',
-    neo4j.auth.basic('username', 'TheS3cr3t')
-)
+const neo4jDriver = neo4j.driver('bolt://1.2.3.4/', neo4j.auth.basic('username', 'TheS3cr3t'))
 
 // We need to load the yfiles/view-layout-bridge module explicitly to prevent the webpack
 // tree shaker from removing this dependency which is needed for 'morphLayout' in this demo.
@@ -163,7 +158,9 @@ async function loadGraph() {
   const otherData = nodeData.filter(dataItem => !isMovie(dataItem))
 
   // now we configure the movie nodes
-  const movieNodesSource = graphBuilder.createNodesSource(movieData, node => node.identity.toString(10))
+  const movieNodesSource = graphBuilder.createNodesSource(movieData, node =>
+    node.identity.toString(10)
+  )
 
   // we specify a distinct node style to use for the movie nodes
   movieNodesSource.nodeCreator.defaults.style = new ShapeNodeStyle({
