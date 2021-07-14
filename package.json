@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "neo4j-driver": "^4.1.0",
-    "yfiles": "C:\\Users\\dipli\\Downloads\\yFiles-for-HTML-Complete-2.3.0.1-Evaluation\\lib-dev\\es-modules\\yfiles-23.0.1-eval-dev.tgz"
+    "yfiles": "../yFiles-for-HTML-Complete-2.4.0.0-Evaluation/lib-dev/es-modules/yfiles-24.0.0-eval-dev.tgz"
   }
 }
