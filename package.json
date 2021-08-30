@@ -10,8 +10,8 @@
     "start": "webpack-dev-server --mode development --open"
   },
   "devDependencies": {
-    "@yworks/optimizer": "^1.3.2",
-    "webpack": "^4.43.0",
+    "@yworks/optimizer": "^1.6.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
     "css-loader": "^3.5.3",
@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "neo4j-driver": "^4.1.0",
-    "yfiles": "../yFiles-for-HTML-Complete-2.4.0.0-Evaluation/lib-dev/es-modules/yfiles-24.0.0-eval-dev.tgz"
+    "yfiles": "../yFiles-for-HTML-Complete-2.4.0.3-Evaluation/lib-dev/es-modules/yfiles-24.0.3-eval-dev.tgz"
   }
 }
